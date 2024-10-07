@@ -1,0 +1,211 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #0a0b0b;
+    height: 70px; /* Set navbar height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav .logo{
+    width: 90px;
+    height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ecf0f1;
+    color: #0a0b0b;
+}
+
+/* Profile Section */
+.profile{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+header .profile h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+header .profile p {
+    font-size: 1.1em;
+    color: #34495e;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align:justify;
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+    padding: 50px 0;
+    /* background-color: #fff; */
+}
+
+#skills h2 {
+    font-size: 2.2em;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skill {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.skill img {
+    width: 30px;
+    height: 30px;
+}
+
+.skill:hover {
+    background-color: #bdc3c7;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f9f9;
+}
+
+#projects h2 {
+    font-size: 2.2em;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.project {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    
+}
+#projects a:link{
+    color: #34495e;
+}
+.project p {
+    font-size: 1.1em;
+    color: #34495e;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f9f9;
+}
+
+#contact h2 {
+    font-size: 2.2em;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #34495e;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a0b0b;
+    color: white;
+}
+
+footer p {
+    font-size: 1em;
+}
